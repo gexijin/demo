@@ -6,9 +6,9 @@ shinyUI(
   fluidPage(
     # Application title
      sidebarLayout(
-	 
+	 # add new comments
       sidebarPanel(
-	    titlePanel("ShinyGO v0.61: Gene Ontology Enrichment Analysis + more"),  
+	    titlePanel("ShinyGO v0.61: Gene  Analysis + more"),  
 	  	p(HTML("<div align=\"right\"> <A HREF=\"javascript:history.go(0)\">Reset</A></div>" )),					
       tags$style(type="text/css", "textarea {width:100%}"),
       strong("1. Select or search for your species."),
